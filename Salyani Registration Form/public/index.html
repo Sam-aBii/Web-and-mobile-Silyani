@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <img src="Saylani-logo.png" alt="Salyani logo">
+    <h1 class="stf">STUDENT  REGISTRATION FORM</h1>
+     <form action="">
+         <label>First Name</label>
+         <input type="text" name="first name" id="" placeholder="Enter first name"> 
+         <span>  (Max 30 characters A to z & a to z) </span>  <br><br>
+         <label>Last Name</label>
+         <input type="text" name="last name" id="" placeholder="Enter last name">
+         <span> (Max 30 characters A to z & a to z) </span>   <br><br>
+         <label>Date of Birth</label>
+         <input type="date" name="date" id="">  <br><br>
+         <label>Email ID</label>
+         <input type="email" name="email" id="" placeholder="Enter your mail">  <br><br>
+         <label>Moblie Number</label>
+         <input type="number" name="numer" id="" placeholder="Enter mobile number">
+         <span>(10 digit number)</span> <br><br>
+         <label>Gender</label>
+         <label for="male">Male</label>
+         <input type="radio" id="male" name="gender" value="male">
+         <label for="female">Female</label>
+         <input type="radio" id="female" name="gender" value="female">
+         <label for="others">Other</label>
+         <input type="radio" name="gender" value="other"> <br> <br>
+         <label>Address</label>
+         <textarea name="" id="" cols="20" rows="5"></textarea> <br><br>
+         <label>City</label>
+         <input type="text" name="text" id="" placeholder="Enter city name"> 
+         <span> (Max 30 characters A to z & a to z) </span> <br><br>
+         <label>Pin Code</label>
+         <input type="number" name="number" id="" placeholder="Enter pin code">
+         <span>(6 digit number) </span> <br><br>
+         <label>State</label>
+         <input type="text" name="text" id="" placeholder="Enter state name"> 
+         <span> (Max 30 characters A to z & a to z) </span> <br><br>
+         <label for="">Country</label>
+         <input type="text" placeholder="Enter country name"> <br><br>
+         <label>Hobbies</label>
+         <label>Drwaing</label>
+         <input type="checkbox" name="drawing" id="">
+         <label>Singing</label>
+         <input type="checkbox" name="Singing" id="">
+         <label>Sketching</label>
+         <input type="checkbox" name="Sketching" id="">
+         <table class="qaulTable">
+            <tr align="center">
+                <td rowspan="5" style="left:0px; vertical-align:top;"><label>QUALIFICATION</label>
+
+                <td align="left">S.No </td>
+                <td align="left">Examination</td>
+                <td>Board</td>
+                <td>Percentage</td>
+                <td>Year of Passing</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>class XII</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <h3>COURSES</h3>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="APPLIED FOR">APPLIED FOR</label></td>
+                <td><label for="DRAWING">BCA</label><input type="radio" name="drawing" id="drawing">
+                    <label for="SINGING">B.Com</label><input type="radio" name="singing" id="singing">
+                    <label for="DANCING">B.Sc</label><input type="radio" name="dancing" id="dancing">
+                    <label for="SWIMMING">B.A</label><input type="radio" name="swiming" id="swiming">
+                </td>
+            </tr>
+        </table>
+        <div class="btn">
+            <button><a href="submit.html">Submit</a></button>
+            <button type="reset">Reset</button>
+        </div>
+       
+     </form>
+       
+</body>
+</html>
