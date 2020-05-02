@@ -51,3 +51,21 @@ marquee{
     border-radius: 15px;
     color: white;
 }
+.p-30 {
+    padding: 30px !important;
+}
+.box-shadow11 {
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+.bg-white {
+    background-color: #fff !important;
+}
+.text-center {
+    text-align: center;
+}
+div {
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
