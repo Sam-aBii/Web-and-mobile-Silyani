@@ -1,406 +1,431 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Rana Abid</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css"/>
+  <head>
+    <title>Rana Abid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Start Header -->
 
-</head>
- <body>
-    
-  <!-- Start Header -->
+    <header>
+      <div class="container">
+        <div class="trigger-main">
+          <a href="javascript:void(0);" class="ham-burger"> </a>
+        </div>
+        <div class="navbar">
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#Certification">Certification</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
 
-   <header>
-   	  <div class="container">   
-   	  	    <div class="trigger-main">
-   	  	  	 <a href="javascript:void(0);" class="ham-burger">
-   	  	  	 </a>
-   	  	  </div>
-   	  	  <div class="navbar">
-   	  	  	  <ul>
-   	  	  	  	  <li><a href="#home" class="active">Home</a></li>
-   	  	  	  	  <li><a href="#about">About</a></li>
-   	  	  	  	  <li><a href="#services">Services</a></li>
-   	  	  	  	  <li><a href="#portfolio">Portfolio</a></li>
-   	  	  	  	  <li><a href="#skills">Skills</a></li>
-   	  	  	  	  <li><a href="#Certification">Certification</a></li>
-   	  	  	  	  <li><a href="#contact">Contact</a></li>
-   	  	  	  </ul>
-   	  	  </div>
-   	  </div>
-   </header>
-  <!-- End Header -->
-
-  <!-- Start Home -->
+    <!-- Start Home -->
     <section class="home" id="home">
-       <div class="container">
-       	   <div class="home-text">
-       	   	    <h1>Hi,</h1>
-					<h3 id='devp' onmouseenter= "developer()" onmouseleave= "developerLeve()"> I'm aBii Rajput</h3>
-				</div>
-       </div>
+      <div class="container">
+        <div class="home-text">
+          <h1>Hi,</h1>
+          <h3
+            id="devp"
+            onmouseenter="developer()"
+            onmouseleave="developerLeve()"
+          >
+            I'm aBii Rajput
+          </h3>
+        </div>
+      </div>
     </section>
-  <!-- End Home -->
- 
-  <!-- Start About -->
+    <!-- End Home -->
+
+    <!-- Start About -->
     <section class="about" id="about">
-       <div class="container">
-       	  <h2 class="title">About Me</h2>
-       	  <div class="about-content">
-       	  	  <div class="img">
-       	  	  	 <img src="images/about.jpg" alt="me">
-       	  	  </div>
-       	  	  <div class="description">
-       	  	  	  <h4>Rana Abid</h4>
-                         <h5>Web Developer</h5>
-                         <h3 style="color: white;">This is me. Designer by day & developer by night.</h3>
-                         <p>I’ve always been drawn to the overlap between design and development. My skills are broad: working in html,css,bootstrap,php,mysql, front end to back end development, digital marketing,chat bot development .</p>
-       	  	  	  <p>
-       	  	  	  
-       	  	  	  </p>
-       	  	  </div>
-       	  </div>
-       </div>
+      <div class="container">
+        <h2 class="title">About Me</h2>
+        <div class="about-content">
+          <div class="img">
+            <img src="images/about.jpg" alt="me" />
+          </div>
+          <div class="description">
+            <h4>Rana Abid</h4>
+            <h5>Web Developer</h5>
+            <h3 style="color: white;">
+              This is me. Designer by day & developer by night.
+            </h3>
+            <p>
+              I have always been drawn to the overlap between design and
+              development. My skills are broad: working in
+              html,css,bootstrap,php,mysql, front end to back end development,
+              digital marketing,chat bot development .
+            </p>
+            <p></p>
+          </div>
+        </div>
+      </div>
     </section>
-  <!-- End About -->
+    <!-- End About -->
 
-  <!-- Start Service -->
+    <!-- Start Service -->
     <section class="services" id="services">
-    	<div class="container">
-    		 <h2 class="title">Services</h2>
-    		 <div class="services-content">
-    		 	 <div class="card">
-    		 	 	  <div class="box">
-    		 	 	  	  <div class="icon">
-    		 	 	  	  	 <span class="fa fa-laptop"></span>
-    		 	 	  	  </div>
-    		 	 	  	  <h3>Web Application Development</h3>
-    		 	 	  	  <p>HTML, CSS, JavaScript, TypeScript, React, Angular 2, Node.js, MongoDB, Firebase, and Serverless Architecture.</p>
-    		 	 	  </div>
-    		 	 </div>
-    		 	 <div class="card">
-    		 	 	  <div class="box">
-    		 	 	  	  <div class="icon">
-    		 	 	  	  	 <span class="fa fa-mobile"></span>
-    		 	 	  	  </div>
-    		 	 	  	  <h3>Cloud Computing</h3>
-    		 	 	  	  <p>We will containerize  your apps and deploy on Cloud services like Google Cloud through kubernetes </p>
-    		 	 	  </div>
-    		 	 </div>
-    		 	 <div class="card">
-    		 	 	  <div class="box">
-    		 	 	  	  <div class="icon">
-    		 	 	  	  	 <span class="fa fa-pencil"></span>
-    		 	 	  	  </div>
-    		 	 	  	  <h3>Creative Design</h3>
-    		 	 	  	  <p>We are providing top-notch products and reliable services in the global software marketplace. </p>
-    		 	 	  </div>
-    		 	 </div>
-    		 	 <div class="card">
-    		 	 	  <div class="box">
-    		 	 	  	  <div class="icon">
-    		 	 	  	  	 <span class="fa fa-code"></span>
-    		 	 	  	  </div>
-    		 	 	  	  <h3>Clean Code</h3>
-    		 	 	  	  <p>We don’t do a lot of things, but whatever we do, we do it in style and according to the highest standards of software engineering. </p>
-    		 	 	  </div>
-    		 	 </div>
-    		 	 <div class="card">
-    		 	 	  <div class="box">
-    		 	 	  	  <div class="icon">
-    		 	 	  	  	 <span class="fa fa-support"></span>
-    		 	 	  	  </div>
-    		 	 	  	  <h3>Fast Support</h3>
-    		 	 	  	  <p>We believe that software developers are the most valuable resources of the world in this digital age - more valuable than oil wells or gold mines. </p>
-    		 	 	  </div>
-    		 	 </div>
-    		 	 <div class="card">
-    		 	 	  <div class="box">
-    		 	 	  	  <div class="icon">
-    		 	 	  	  	 <span class="fa fa-rocket"></span>
-    		 	 	  	  </div>
-    		 	 	  	  <h3>Branding Identity</h3>
-    		 	 	  	  <p>Working for different companies and Running my own digital Agency at the age of 20. As I’m a young soul and I’m looking to grow an Online Business.</p>
-    		 	 	  </div>
-    		 	 </div>
-    		 </div>
-    	</div>
+      <div class="container">
+        <h2 class="title">Services</h2>
+        <div class="services-content">
+          <div class="card">
+            <div class="box">
+              <div class="icon">
+                <span class="fa fa-laptop"></span>
+              </div>
+              <h3>Web Application Development</h3>
+              <p>
+                HTML, CSS, JavaScript, TypeScript, React, Angular 2, Node.js,
+                MongoDB, Firebase, and Serverless Architecture.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <div class="icon">
+                <span class="fa fa-mobile"></span>
+              </div>
+              <h3>Cloud Computing</h3>
+              <p>
+                We will containerize your apps and deploy on Cloud services like
+                Google Cloud through kubernetes
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <div class="icon">
+                <span class="fa fa-pencil"></span>
+              </div>
+              <h3>Creative Design</h3>
+              <p>
+                We are providing top-notch products and reliable services in the
+                global software marketplace.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <div class="icon">
+                <span class="fa fa-code"></span>
+              </div>
+              <h3>Clean Code</h3>
+              <p>
+                We don’t do a lot of things, but whatever we do, we do it in
+                style and according to the highest standards of software
+                engineering.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <div class="icon">
+                <span class="fa fa-support"></span>
+              </div>
+              <h3>Fast Support</h3>
+              <p>
+                We believe that software developers are the most valuable
+                resources of the world in this digital age - more valuable than
+                oil wells or gold mines.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <div class="icon">
+                <span class="fa fa-rocket"></span>
+              </div>
+              <h3>Branding Identity</h3>
+              <p>
+                Working for different companies and Running my own digital
+                Agency at the age of 20. As I’m a young soul and I’m looking to
+                grow an Online Business.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
- <!-- End Service -->
+    <!-- End Service -->
 
-
-
- <!-- Start Portfolio -->
+    <!-- Start Portfolio -->
     <section class="portfolio" id="portfolio">
-    	<div class="container">
-    		 <h2 class="title">Portfolio</h2>
+      <div class="container">
+        <h2 class="title">Portfolio</h2>
 
-    		 <div class="portfolio-content">
-    		 	  <div class="card">
-    		 	  	  <div class="box">
-    		 	  	  	  <h3>Web Development</h3>
-    		 	  	  	  <h4>Wesbiste</h4>
-    		 	  	  	  <img src="images/Portfolio1.jpeg" alt="portfolio">
-    		 	  	  </div>
-    		 	  </div>
-    		 	  <div class="card">
-    		 	  	  <div class="box">
-    		 	  	  	  <h3>Front-end Development</h3>
-    		 	  	  	  <h4>Landing Page</h4>
-    		 	  	  	  <img src="images/Portfolio2.jpg" alt="portfolio"/>
-    		 	  	  </div>
-    		 	  </div>
-    		 	  <div class="card">
-    		 	  	  <div class="box">
-    		 	  	  	  <h3>Wordpress</h3>
-    		 	  	  	  <h4>Wesbiste</h4>
-    		 	  	  	  <img src="images/Portfolio3.jpeg" alt="portfolio"/>
-    		 	  	  </div>
-    		 	  </div>
-    		 	  <div class="card">
-    		 	  	  <div class="box">
-    		 	  	  	  <h3>Digital Marketing</h3>
-    		 	  	  	  <h4>SMM</h4>
-    		 	  	  	  <img src="images/Portfolio4.jpeg" alt="portfolio"/>
-    		 	  	  </div>
-    		 	  </div>
-    		 	  <div class="card">
-    		 	  	  <div class="box">
-    		 	  	  	  <h3>Web Desiging</h3>
-    		 	  	  	  <h4>Web Design</h4>
-    		 	  	  	  <img src="images/Portfolio5.jpeg" alt="portfolio"/>
-    		 	  	  </div>
-    		 	  </div>
-    		 	  <div class="card">
-    		 	  	  <div class="box">
-    		 	  	  	  <h3>SEO</h3>
-    		 	  	  	  <h4>Branding</h4>
-    		 	  	  	  <img src="images/Portfolio6.jpeg" alt="portfolio"/>
-    		 	  	  </div>
-    		 	  </div>
-    		 </div>
-    	</div>
+        <div class="portfolio-content">
+          <div class="card">
+            <div class="box">
+              <h3>Web Development</h3>
+              <h4>Wesbiste</h4>
+              <img src="images/Portfolio1.jpeg" alt="portfolio" />
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <h3>Front-end Development</h3>
+              <h4>Landing Page</h4>
+              <img src="images/Portfolio2.jpg" alt="portfolio" />
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <h3>Wordpress</h3>
+              <h4>Wesbiste</h4>
+              <img src="images/Portfolio3.jpeg" alt="portfolio" />
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <h3>Digital Marketing</h3>
+              <h4>SMM</h4>
+              <img src="images/Portfolio4.jpeg" alt="portfolio" />
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <h3>Web Desiging</h3>
+              <h4>Web Design</h4>
+              <img src="images/Portfolio5.jpeg" alt="portfolio" />
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <h3>SEO</h3>
+              <h4>Branding</h4>
+              <img src="images/Portfolio6.jpeg" alt="portfolio" />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
- <!-- End Portfolio -->
+    <!-- End Portfolio -->
 
- <!-- Start Skills -->
- <section class="skills" id="skills">
-    <div class="container">
-         <h2 class="title">Skills</h2>
-         <div class="skills-content">
-              <div class="card">
-             <label>HTML5</label>
-                <div class="progress" data-text="95%">
-                      <div class="inner"  style="width: 93%">
-                      </div>
-                </div>
-              </div>
-              <div class="card">
-             <label>CSS3</label>
-                <div class="progress" data-text="85%">
-                      <div class="inner"  style="width: 80%">
-                      </div>
-                </div>
-              </div>
-              <div class="card">
-             <label>JAVASCRIPT</label>
-                <div class="progress" data-text="90%">
-                      <div class="inner"  style="width: 90%">
-                      </div>
-                </div>
-              </div>
-              <div class="card">
-             <label>WORDPRESS</label>
-                <div class="progress" data-text="95%">
-                      <div class="inner"  style="width: 93%">
-                      </div>
-                </div>
-              </div>
-              <div class="card">
-             <label>SQL</label>
-                    <div class="progress" data-text="70%">
-                   <div class="inner"  style="width:70%">
-                    </div>
+    <!-- Start Skills -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="title">Skills</h2>
+        <div class="skills-content">
+          <div class="card">
+            <label>HTML5</label>
+            <div class="progress" data-text="95%">
+              <div class="inner" style="width: 93%;"></div>
             </div>
+          </div>
+          <div class="card">
+            <label>CSS3</label>
+            <div class="progress" data-text="85%">
+              <div class="inner" style="width: 80%;"></div>
             </div>
-            <div class="card">
-             <label>REACT</label>
-                <div class="progress" data-text="78%">
-                    <div class="inner" style="width: 78%">
-                    </div>
-                </div>
-			  </div>
-			  <div class="card">
-				<label>Digital Marketing</label>
-				   <div class="progress" data-text="85%">
-						 <div class="inner"  style="width: 80%">
-						 </div>
-				   </div>
-				 </div>
-				 <div class="card">
-					<label>SEO</label>
-					   <div class="progress" data-text="85%">
-							<div class="inner"  style="width: 80%">
-							</div>
-					   </div>
-				</div>
-         </div>
-    </div>
-</section>
-<!-- End Skills -->
+          </div>
+          <div class="card">
+            <label>JAVASCRIPT</label>
+            <div class="progress" data-text="90%">
+              <div class="inner" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="card">
+            <label>WORDPRESS</label>
+            <div class="progress" data-text="95%">
+              <div class="inner" style="width: 93%;"></div>
+            </div>
+          </div>
+          <div class="card">
+            <label>SQL</label>
+            <div class="progress" data-text="70%">
+              <div class="inner" style="width: 70%;"></div>
+            </div>
+          </div>
+          <div class="card">
+            <label>REACT</label>
+            <div class="progress" data-text="78%">
+              <div class="inner" style="width: 78%;"></div>
+            </div>
+          </div>
+          <div class="card">
+            <label>Digital Marketing</label>
+            <div class="progress" data-text="85%">
+              <div class="inner" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="card">
+            <label>SEO</label>
+            <div class="progress" data-text="85%">
+              <div class="inner" style="width: 80%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Skills -->
+
+    <!-- Start Certification -->
+    <section class="Certification" id="Certification">
+      <div class="container">
+        <h2 class="title">Certification</h2>
+        <div class="Certification-content">
+          <div class="card">
+            <div class="box">
+              <img src="images/cert1.png" alt="Certification" height="300px" />
+              <h3>DigiSkill Certification</h3>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <img src="images/cert2.jpg" alt="Certification" height="300px" />
+              <h3>Sololearn Certification</h3>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <img src="images/Google.png" alt="Certification" height="300px" />
+              <h3>Google Certification</h3>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <img src="images/cert4.png" alt="Certification" height="300px" />
+              <h3>BitDgree Certification</h3>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <img src="images/cert5.png" alt="Certification" height="300px" />
+              <h3>Pirple Certification</h3>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <img src="images/ace.jpeg" alt="Certification" height="300px" />
+              <h3>Python Certification</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Certification -->
+
+    <!-- Start Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="title">Contact Me</h2>
+        <div class="contact-content">
+          <form>
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="Subject" />
+            <textarea placeholder="Message"></textarea>
+            <button class="btn-light">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="box">
+            <div class="icon">
+              <span class="fa fa-phone"></span>
+            </div>
+            <h4>Phone</h4>
+            <p>+92 3067318874</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <span class="fa fa-envelope"></span>
+            </div>
+            <h4>Eamil</h4>
+            <p>abidmukhtar1212@gmail.com</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <span class="fa fa-map-marker"></span>
+            </div>
+            <h4>Location</h4>
+            <p>Block#C Gulshan Jamal, Karachi</p>
+          </div>
+        </div>
+        <div class="social-links">
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/raoabid.mukhtar.5"
+                target="_Blank"
+                ><span class="fa fa-facebook"></span
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/abii-rajput-a90040153/"
+                target="_Blank"
+                ><span class="fa fa-linkedin"></span
+              ></a>
+            </li>
+            <li>
+              <a href=""><span class="fa fa-skype"></span></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/abii_rajput/" target="_Blank"
+                ><span class="fa fa-instagram"></span
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+	<!-- jquery code -->
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
- <!-- Start Certification -->
-   <section class="Certification" id="Certification">
-   	 <div class="container">
-   	 	   <h2 class="title">Certification</h2>
-   	 	   <div class="Certification-content">
-   	 	   	  <div class="card">
-   	 	   	  	  <div class="box">
-                    <img src="images/cert1.png" alt="Certification" height="300px" />
-                    <h3>DigiSkill Certification </h3>
-   	 	   	  	  </div>
-   	 	   	  </div>
-   	 	   	  <div class="card">
-   	 	   	  	  <div class="box">
-   	 	   	  	  	  <img src="images/cert2.jpg" alt="Certification"  height="300px" />
-   	 	   	  	  	  <h3>Sololearn Certification </h3>
-   	 	   	  	  </div>
-   	 	   	  </div>
-   	 	   	  <div class="card">
-   	 	   	  	  <div class="box">
-   	 	   	  	  	  <img src="images/Google.png" alt="Certification"  height="300px"/>
-   	 	   	  	  	  <h3>Google Certification</h3>
-                        </div>
-					 </div>
-					 <div class="card">
-						<div class="box">
-							  <img src="images/cert4.png" alt="Certification"  height="300px" />
-							  <h3>BitDgree Certification </h3>
-						</div>
-				  </div>
-				  <div class="card">
-					<div class="box">
-						  <img src="images/cert5.png" alt="Certification"  height="300px" />
-						  <h3>Pirple Certification </h3>
-					</div>
-			  </div>
-			  <div class="card">
-				<div class="box">
-					  <img src="images/ace.jpeg" alt="Certification"  height="300px"   />
-					  <h3>Python Certification </h3>
-				</div>
-		  </div>
-   	 	   </div>
-   	 </div>
-   </section>
- <!-- End Certification -->
-
-
- <!-- Start Contact -->
-   <section class="contact" id="contact">
-   	 <div class="container">
-   	 	  <h2 class="title">Contact Me</h2>
-   	 	  <div class="contact-content">
-   	 	  	  <form>
-   	 	  	  	 <input type="text" placeholder="Name"/>
-   	 	  	  	 <input type="text" placeholder="Email"/>
-   	 	  	  	 <input type="text" placeholder="Subject"/>
-   	 	  	  	 <textarea placeholder="Message"></textarea>
-   	 	  	  	 <button class="btn-light">Send Message</button>
-   	 	  	  </form>
-   	 	  </div>
-   	 </div>
-   </section>
- <!-- End Contact -->
- 
- <!-- Start Footer -->
-   <footer>
-   	  <div class="container">
-   	  	  <div class="footer-content">
-   	  	  	  <div class="box">
-   	  	  	  	  <div class="icon">
-   	  	  	  	  	 <span class="fa fa-phone"></span>
-   	  	  	  	  </div>
-   	  	  	  	  <h4>Phone</h4>
-   	  	  	  	  <p>+92 3067318874</p>
-   	  	  	  </div>
-   	  	  	  <div class="box">
-   	  	  	  	  <div class="icon">
-   	  	  	  	  	 <span class="fa fa-envelope"></span>
-   	  	  	  	  </div>
-   	  	  	  	  <h4>Eamil</h4>
-   	  	  	  	  <p>abidmukhtar1212@gmail.com</p>
-   	  	  	  </div>
-   	  	  	  <div class="box">
-   	  	  	  	  <div class="icon">
-   	  	  	  	  	 <span class="fa fa-map-marker"></span>
-   	  	  	  	  </div>
-   	  	  	  	  <h4>Location</h4>
-   	  	  	  	  <p>Block#C Gulshan Jamal, Karachi</p>
-   	  	  	  </div>
-   	  	  </div>
-   	  	  <div class="social-links">
-   	  	  	 <ul>
-   	  	  	 	 <li><a href="https://www.facebook.com/raoabid.mukhtar.5" target="_Blank"><span class="fa fa-facebook"></span></a></li>
-   	  	  	 	 <li><a href="https://www.linkedin.com/in/abii-rajput-a90040153/" target="_Blank"><span class="fa fa-linkedin"></span></a></li>
-   	  	  	 	 <li><a href=""><span class="fa fa-skype"></span></a></li>
-   	  	  	 	 <li><a href="https://www.instagram.com/abii_rajput/" target="_Blank"><span class="fa fa-instagram"></span></a></li>
-   	  	  	 </ul>
-   	  	  </div>
-   	  </div>
-   </footer>
- <!-- End Footer -->
-
-
-
-<!-- jquery code -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<script>
-	function developer() {
-		document.getElementById('devp').innerHTML="Web Developer";
-		
-	}
-	function developerLeve() {
-		document.getElementById('devp').innerHTML="I'm aBii Rajput";
-		
-	}
-	$(document).ready(function(){
-		var bottom=$("header").outerHeight();
-		var header=$("header").offset().top + bottom;
-     $(window).scroll(function(){
+    <script>
+      function developer() {
+        document.getElementById("devp").innerHTML = "Web Developer";
+      }
+      function developerLeve() {
+        document.getElementById("devp").innerHTML = "I'm aBii Rajput";
+      }
+      $(document).ready(function () {
+        var bottom = $("header").outerHeight();
+        var header = $("header").offset().top + bottom;
+        $(window).scroll(function () {
           // header fixed only when window width greater than 991px
-         if($(window).width()>991){
-     	if($(window).scrollTop()>=header){
-     		$("header").addClass("sticky")
-     	}
-     	else{
-     	 $("header").removeClass("sticky")	
-     	}
-     }
-     })
+          if ($(window).width() > 991) {
+            if ($(window).scrollTop() >= header) {
+              $("header").addClass("sticky");
+            } else {
+              $("header").removeClass("sticky");
+            }
+          }
+        });
 
-     // navbar active link
+        // navbar active link
 
-     $(".navbar ul li a").click(function(){
-     	 $(".navbar ul li a").removeClass("active")
-     	 $(this).addClass("active");
-     })
-  
-    $(".ham-burger").click(function(){
-    	$(this).toggleClass("active")
-    	$(".navbar").toggleClass("open");
-    })
+        $(".navbar ul li a").click(function () {
+          $(".navbar ul li a").removeClass("active");
+          $(this).addClass("active");
+        });
 
-	})
-
-</script>
-
-</body>
+        $(".ham-burger").click(function () {
+          $(this).toggleClass("active");
+          $(".navbar").toggleClass("open");
+        });
+      });
+	</script>
+	
+  </body>
 </html>
-
-
-
-
-
